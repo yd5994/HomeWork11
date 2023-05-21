@@ -21,7 +21,6 @@ public class MainActivity2 extends AppCompatActivity {
         Intent gi=getIntent();
         int blue=gi.getIntExtra("blue",1);
         int red=gi.getIntExtra("red",1);
-        Toast.makeText(MainActivity2.this,String.valueOf(red),Toast.LENGTH_SHORT).show();
         tx1=findViewById(R.id.textView);
         tx2=findViewById(R.id.textView2);
         tx3=findViewById(R.id.textView3);
