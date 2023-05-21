@@ -46,8 +46,4 @@ public class MainActivity2 extends AppCompatActivity {
         });
     }
 
-//    public void btn6(View view) {
-//        Intent si = new Intent(getApplicationContext(),MainActivity .class);
-//        startActivity(si);
-//    }
 }

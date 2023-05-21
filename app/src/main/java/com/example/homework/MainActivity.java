@@ -23,14 +23,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 blue++;
-                Toast.makeText(MainActivity.this,String.valueOf(blue),Toast.LENGTH_SHORT).show();
             }
         });
         btn3.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
                 red+=2;
-                Toast.makeText(MainActivity.this,String.valueOf(red),Toast.LENGTH_SHORT).show();
                 return false;
             }
         });
@@ -44,11 +42,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-//    public void btn2(View view) {
-//        Intent si = new Intent(getApplicationContext(),MainActivity2.class);
-//        si.putExtra("blue",blue);
-//        si.putExtra("red",red);
-//        startActivity(si);
-//    }
 }
